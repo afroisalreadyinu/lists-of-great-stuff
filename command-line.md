@@ -1,5 +1,10 @@
 # Command line software
 
+- [entr](http://eradman.com/entrproject/) is a very simple utility that runs a
+  command when a file in a give list of files changes. In order to run all tests
+  with `pytest` when a code file changes, for example, you would run `find .
+  -name '*.py' | entr 'pytest'`.
+
 - [fzf](https://github.com/junegunn/fzf/) is a freakishly fast interactive file
   finder. It does fuzzy match, so typos are not a problem. Much better then
   fiddling around with `find` options.
