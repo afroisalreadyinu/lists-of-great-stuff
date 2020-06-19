@@ -24,5 +24,6 @@
   you would need to run ~man -t systemd | ps2pdf - systemd.pdf~.
 
 - [unp](https://github.com/mitsuhiko/unp) is a tool that unpacks archives. It
-  recognizes archive type from suffix and uses the right CLI tool to unpack it.
-  Can be installed on ubuntu with `apt install unp`.
+  recognizes archive type and uses the right CLI tool to unpack it. If a tool to
+  process file is missing, it will also tell you what you should install. It can
+  be installed on ubuntu with `apt install unp`.
