@@ -9,5 +9,7 @@
   Emacs; enabling it is very easy; it's enough to put the following in your init
   file:
 
+```
     (require 'ido)
     (ido-mode t)
+```
