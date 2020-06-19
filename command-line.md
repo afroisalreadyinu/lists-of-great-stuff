@@ -5,6 +5,11 @@
   with `pytest` when a code file changes, for example, you would run `find .
   -name '*.py' | entr 'pytest'`.
 
+- [file](https://en.wikipedia.org/wiki/File_(command)) is one of those utilities
+  that you need once every few months, but then it's exactly the right thing.
+  `file` prints detailed information on the type of a file; what kind of an
+  executable it is, which encoding a text file has etc, which pdf version etc.
+
 - [fzf](https://github.com/junegunn/fzf/) is a freakishly fast interactive file
   finder. It does fuzzy match, so typos are not a problem. Much better then
   fiddling around with `find` options.
