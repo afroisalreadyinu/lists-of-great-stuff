@@ -19,8 +19,8 @@
 
 - [ps2pdf](https://linux.die.net/man/1/ps2pdf) is a utility for converting
   Postscript to PDF. In itself this is not exciting, but coupled with the good
-  old ~man~ command producing Postscript, this means that you can convert man
-  pages to PDF. In order to save the ~systemd~ man pages as PDF, for example,
+  old `man` command producing Postscript, this means that you can convert man
+  pages to PDF. In order to save the `systemd` man pages as PDF, for example,
   you would need to run `man -t systemd | ps2pdf - systemd.pdf`.
 
 - [unp](https://github.com/mitsuhiko/unp) is a tool that unpacks archives. It
