@@ -21,7 +21,7 @@
   Postscript to PDF. In itself this is not exciting, but coupled with the good
   old ~man~ command producing Postscript, this means that you can convert man
   pages to PDF. In order to save the ~systemd~ man pages as PDF, for example,
-  you would need to run ~man -t systemd | ps2pdf - systemd.pdf~.
+  you would need to run `man -t systemd | ps2pdf - systemd.pdf`.
 
 - [unp](https://github.com/mitsuhiko/unp) is a tool that unpacks archives. It
   recognizes archive type and uses the right CLI tool to unpack it. If a tool to
