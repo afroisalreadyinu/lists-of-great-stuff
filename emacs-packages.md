@@ -13,3 +13,9 @@
     (require 'ido)
     (ido-mode t)
 ```
+
+- [magit](https://magit.vc/) is an excellent package that brings the best out of
+  Emacs. Calling it a package is not fair, in fact, because magit is a complete
+  Git client written in Elisp. It integrates perfectly with the design of Git
+  and the features of Emacs, enabling a very quick and precise workflow. Once
+  you get used to it, it's very difficult to use anything else.
