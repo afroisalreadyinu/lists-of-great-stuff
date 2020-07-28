@@ -1,5 +1,10 @@
 # Command line software
 
+- [bottom](https://crates.io/crates/bottom) is a replacement for htop written in
+  Rust. It displays various kinds of information such as memory, CPU and network
+  usage, temperature etc. It does a couple of nice things like grouping Firefox
+  processes under "Web content", and has nice graphs.
+
 - [entr](http://eradman.com/entrproject/) is a very simple utility that runs a
   command when a file in a give list of files changes. In order to run all tests
   with `pytest` when a code file changes, for example, you would run `find .
