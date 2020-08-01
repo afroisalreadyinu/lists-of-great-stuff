@@ -28,6 +28,11 @@
   pages to PDF. In order to save the `systemd` man pages as PDF, for example,
   you would need to run `man -t systemd | ps2pdf - systemd.pdf`.
 
+- [tealdeer](https://github.com/dbrgn/tealdeer) is a CLI client in Rust for
+  [tldr](https://github.com/tldr-pages/tldr), a community project to supply
+  simplified versions of man pages. Think of it as a list of examples for
+  frequently used daily commands, such as recursive grep or ln.
+
 - [unp](https://github.com/mitsuhiko/unp) is a tool that unpacks archives. It
   recognizes archive type and uses the right CLI tool to unpack it. If a tool to
   process file is missing, it will also tell you what you should install. It can
