@@ -3,7 +3,14 @@
 - [bottom](https://crates.io/crates/bottom) is a replacement for htop written in
   Rust. It displays various kinds of information such as memory, CPU and network
   usage, temperature etc. It does a couple of nice things like grouping Firefox
-  processes under "Web content", and has nice graphs.
+  processes under "Web content", and has nice graphs. You can install it with
+  cargo.
+
+- [cargo](https://doc.rust-lang.org/cargo/guide/) is the Rust package manager.
+  I'm adding it here because quite a few of the applications in this list are
+  written in Rust, and cargo is the best tool to install them. I would advise
+  you to install cargo through [rustup](https://rustup.rs/), which provides
+  updates to cargo itself.
 
 - [entr](http://eradman.com/entrproject/) is a very simple utility that runs a
   command when a file in a give list of files changes. In order to run all tests
@@ -31,7 +38,8 @@
 - [tealdeer](https://github.com/dbrgn/tealdeer) is a CLI client in Rust for
   [tldr](https://github.com/tldr-pages/tldr), a community project to supply
   simplified versions of man pages. Think of it as a list of examples for
-  frequently used daily commands, such as recursive grep or ln.
+  frequently used daily commands, such as recursive grep or ln. Installable with
+  cargo.
 
 - [unp](https://github.com/mitsuhiko/unp) is a tool that unpacks archives. It
   recognizes archive type and uses the right CLI tool to unpack it. If a tool to
